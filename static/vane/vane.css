@@ -488,6 +488,7 @@ button { font: inherit; color: inherit; }
 .toc-inline .level-3 a { padding-left: 14px; }
 
 .doc-footer { margin-top: 60px; }
+.kite-comments:not(:empty) { margin-top: 60px; }
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .pager-link {
   display: flex; flex-direction: column; gap: 4px;

@@ -1,0 +1,6 @@
+{{- /* Where the Comments plugin puts a thread, in the text's column. It stays
+       empty, and so out of sight, on a site without the plugin or a page
+       that turned it off. Called with the page's context. Kite Plus Comments
+       takes the accent from here: links are drawn in ink, so a guess from
+       the page would miss it. */ -}}
+<section class="kite-comments" data-kite-comments data-accent="{{ default "#3a66c4" .Site.ThemeSettings.accent }}" data-font="sans"></section>

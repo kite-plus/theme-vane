@@ -41,6 +41,7 @@
       </nav>
     </footer>
     {{- end }}
+    {{ partial "comments.html" . }}
   </article>
   {{- if $toc }}
   <aside class="doc-aside">{{ partial "toc.html" (dict "page" .Page "lang" $lang) }}</aside>
